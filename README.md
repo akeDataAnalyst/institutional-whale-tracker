@@ -1,5 +1,7 @@
 # Smart Money "Whale" Tracker
 
+[![Live Demo](https://img.shields.io/badge/Streamlit-Live%20Demo-brightgreen)](https://institutional-whale-tracker-y8annkwryegv6vi6luwhcn.streamlit.app/)
+
 ## Executive Summary
 In the decentralized economy, transparency is the ultimate edge. This project monitors the primary 2026 hot-wallets of Wintermute Trading, a premier global market maker. 
 By extracting real-time multi-asset data via the Etherscan V2 API, the system identifies "Whale Shuffles" and "Exchange Inflows," offering a predictive window into upcoming market volatility before it appears on retail exchanges.
