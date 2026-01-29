@@ -1,6 +1,9 @@
 import streamlit as st
 import pandas as pd
 import plotly.express as px
+import requests
+import os
+from dotenv import load_dotenv
 
 # 1. Page Configuration
 st.set_page_config(page_title="Wintermute Whale Watch", layout="wide")
