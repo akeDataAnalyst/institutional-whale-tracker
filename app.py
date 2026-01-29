@@ -11,6 +11,11 @@ load_dotenv()
 ETH_KEY = os.getenv('ETHERSCAN_API_KEY')
 WHALE_ADDR = "0xdbf5e9c5206d0db70a90108bf936da60221dc080" # Wintermute
 
+if ETH_KEY is None:
+    print("ERROR: .env file not found or ETHERSCAN_API_KEY is missing!")
+else:
+    print(f"API Key loaded: {ETH_KEY[:5]}***") # Shows first 5 chars only for safety
+
 # 2. Sidebar & Data Fetching
 st.sidebar.title("Controls")
 offset = st.sidebar.slider("Transactions to Scan", 10, 200, 100)
